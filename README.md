@@ -1,4 +1,7 @@
 Simple Remote Desktop Connection Client in PyQt4<br>
+Forked from Gibbio's RDPGUI: https://github.com/Gibbio/RDPGUI<br>
+<br>
+Able to store multiple configurations with reduced config.
 <br>
 Packages needed: python-qt4, python-configparser,python-urllib3
 <br>
@@ -16,7 +19,7 @@ RDPPasswordFlags = /p:<br>
 RDPDefaulfFlags = /cert-ignore /f<br>
 RDPExtraFlags = /sound:sys:pulse /rfx /fonts<br>
 <br>
-config for FreeRDP < 1.0.1 (old command line release: http://manpages.ubuntu.com/manpages/raring/man1/xfreerdp.1.html):<br>
+config for FreeRDP < 1.0.1 (old command line release: https://github.com/FreeRDP/FreeRDP/wiki/CommandLineInterface#other-options-1):<br>
 [DEFAULT]<br>
 RDPBinary = xfreerdp<br>
 RDPDomain = RPiTC<br>
@@ -28,7 +31,7 @@ RDPPasswordFlags = "-p "<br>
 RDPDefaulfFlags = "-x l -f"<br>
 RDPExtraFlags = "--plugin rdpsnd -z --rfx"<br>
 <br>
-config for RDesktop (command line reference: http://manpages.ubuntu.com/manpages/raring/man1/rdesktop.1.html):<br>
+config for RDesktop (command line reference: https://github.com/rdesktop/rdesktop/blob/master/doc/rdesktop.1):<br>
 [DEFAULT]<br>
 RDPBinary = rdesktop<br>
 RDPDomain = RPiTC<br>
