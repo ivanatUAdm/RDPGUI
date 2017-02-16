@@ -244,7 +244,7 @@ class Ui_RDPGUI(object):
 #TODO
         self._RDPunsecureFlag  = {
           'rdesktop': " ",
-          'xfreerdp-old': "",
+          'xfreerdp-old': "--ignore-certificate",
           'xfreerdp': "/cert-ignore"
         }
 #TODO
